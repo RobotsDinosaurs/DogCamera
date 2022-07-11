@@ -17,6 +17,9 @@
  Video Tutorial: 
 [YouTube Video - Dog Camera with ESP32CAM and PIR sensor](https://youtu.be/Xqssep32oWI)
 
+IDE:
+Visual Studio Code + PlatformIO plugin
+
  
 ## Connections for uploading a sketch
 
