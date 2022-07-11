@@ -14,10 +14,10 @@
  Make sure to set your own Wifi/FTP credentials. Pick a static IP for your ESP32CAM as well as local FTP server.
  Select a specific FTP folder for each camera. Pick your own NTP timezone. 
 
- Video Tutorial: 
+ **Video Tutorial:**
 [YouTube Video - Dog Camera with ESP32CAM and PIR sensor](https://youtu.be/Xqssep32oWI)
 
-IDE:
+**IDE:**
 Visual Studio Code + PlatformIO plugin
 
  
