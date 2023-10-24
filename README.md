@@ -20,6 +20,9 @@
 **IDE:**
 Visual Studio Code + PlatformIO plugin
 
+**Limitations:**
+This camera works best with low to moderate traffic. If your motion sensor is HIGH all the time, the picture transfer speed will not keep up with the amount of pictures being generated. Check your motion sensor settings. It should be set to re-triggering (H) and time-delay set to minimum (3s).
+
  
 ## Connections for uploading a sketch
 

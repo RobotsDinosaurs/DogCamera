@@ -5,7 +5,7 @@
 #include "ftp.h"
 #include "ntp.h"
 
-#define PICS_PER_MOTION 4
+#define PICS_PER_MOTION 2
 #define PICS_PER_READ 10
 #define BATCH_CAP 7
 #define MOTION_RETRIGGER_CAP 5
@@ -31,7 +31,7 @@ void camera_capture_code(void * parameter) {
 
   for(;;) {    
       // Keep on taking pictures while there is motion
-      // PIR sensor is set to re-triggering (H) and sensitivity is set to minimum (3s)
+      // PIR sensor is set to re-triggering (H) and time-delay is set to minimum (3s)
       int j = 0;
       int pirPinValue = LOW;
       pirPinValue = digitalRead(pirPin);
@@ -81,7 +81,7 @@ void camera_capture_code(void * parameter) {
         }
       }
 
-      vTaskDelay(500);
+      vTaskDelay(5000);
   }
 
   Serial.println("Deleted task camera_capture_code");
