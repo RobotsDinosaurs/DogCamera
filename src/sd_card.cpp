@@ -175,10 +175,14 @@ vector<string> get_file_names_for_current_dir(int noPicsToFetch, int batchNo, in
                     //Serial.println( "File Name:" + fn + ", Size: " + fs + " bytes");
                     result.push_back(fn.c_str());
                     ++pics_read;
+                    file.close();
                 }
         
                 file = dir.openNextFile();
             }
+
+            file.close();
+            dir.close();
         }
 
         if (pics_read > 0) 
