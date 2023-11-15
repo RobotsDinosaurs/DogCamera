@@ -56,7 +56,7 @@ Connections Tutorial:
  
 ## Connections for the final version for the 3D printed box
   
- I am using a 3cm x 7cm board. 
+ I am using a 3cm x 7cm board. (For a custom PCB, follow: https://github.com/RobotsDinosaurs/DIYCamera)
  * MicroUSB port is soldered to positions: B08 (VCC)-B04 (GND)
  * 4-pin connectors (for ESP32CAM) are at: C07-C10 and L07-L10
  * 3-pin connector (for PIR sensor) is at: S09-U09
